@@ -60,7 +60,7 @@ int main(void) {
         cout << loop.getQuantity();
         cout << "        ";
         cout << loop.getPrice() << endl;
-        totalPrice += loop.getPrice();
+        totalPrice += loop.getPrice() * loop.getQuantity();
     }
     cout << endl;
     cout << "Your total is: " << totalPrice;
